@@ -43,6 +43,8 @@ const KeyActions = {
     [Keys.SQRT]: {str: 'sqrt', fn: CMD},
     [Keys.PI]: {str: 'pi', fn: CMD},
     [Keys.THETA]: {str: 'theta', fn: CMD},
+    [Keys.INF]: {str: 'infty', fn: CMD},
+    [Keys.LDOTS]: {str: 'ldots', fn: CMD},
     [Keys.RADICAL]: {str: 'nthroot', fn: CMD},
     [Keys.LT]: {str: '<', fn: WRITE},
     [Keys.LEQ]: {str: '\\leq', fn: WRITE},

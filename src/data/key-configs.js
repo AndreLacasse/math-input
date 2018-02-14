@@ -167,6 +167,22 @@ const KeyConfigs = {
             data: '\\pi',
         },
     },
+    [Keys.INF]: {
+        type: KeyTypes.VALUE,
+        ariaLabel: i18n._('Infinity'),
+        icon: {
+            type: IconTypes.MATH,
+            data: '\\infty',
+        },
+    },
+    [Keys.LDOTS]: {
+        type: KeyTypes.VALUE,
+        ariaLabel: i18n._('Dots'),
+        icon: {
+            type: IconTypes.MATH,
+            data: '\\ldots',
+        },
+    },
     [Keys.THETA]: {
         type: KeyTypes.VALUE,
         ariaLabel: i18n._('Theta'),
